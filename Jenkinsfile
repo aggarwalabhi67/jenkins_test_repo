@@ -5,7 +5,7 @@ pipeline {
          steps{ input('build phase')}
          }
          stage('POST-Build'){
-         steps { input('Want to proceed for testing")}
+         steps { input('Want to proceed for testing')}
          }
          stage('Testing'){
          when{

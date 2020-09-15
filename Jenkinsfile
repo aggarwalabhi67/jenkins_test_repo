@@ -2,7 +2,7 @@ pipeline {
          agent any
          stages {
          stage('Build'){
-         steps{ input('build phase'}
+         steps{ input('build phase')}
          }
          stage('POST-Build'){
          steps { input('Want to proceed for testing")}
